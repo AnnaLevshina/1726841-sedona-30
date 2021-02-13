@@ -1,0 +1,173 @@
+.style_nav {
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+
+list-style: none;
+text-transform: uppercase;
+
+}
+
+
+.style_nav a {
+color: #000000;	
+}
+
+.blok_2{
+	text-align: center;
+
+}
+
+.text_blok2 {
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+color:  #000000;
+
+}
+
+.blok_3 {
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+	color: #FFFFFF;
+}
+
+.blok_3 h2 {
+ 
+ 	font-size: 21px;
+	line-height: 21px;
+
+}
+
+.blok_3 dt dd {
+
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.spisok_1{
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+}
+
+.spisok_1 h3 {
+font-size: 21px;
+line-height: 21px;
+color: #000000;
+
+}
+.spisok_1 p {
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+
+.blok_4 {
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+	color: #FFFFFF;
+}
+
+.blok_4 h2 {
+ 
+ 	font-size: 21px;
+	line-height: 21px;
+
+}
+
+.blok_4 dt dd {
+
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.spisok_2{
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+}
+
+.spisok_2 h3 {
+font-size: 21px;
+line-height: 21px;
+color: #000000;
+
+}
+.spisok_2 p {
+font-family: PT Sans;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+
+.text_end {
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 26px;
+color:  #000000;
+text-align: center;
+}
+
+.text_end_end {
+	font-family: PT Sans;
+	text-align: center;
+}
+
+.b1 {
+	font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+	color: #FFFFFF;
+	background: #766357;
+	border: 0;
+}
+
+.b2 {
+	font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+	color: #FFFFFF;
+	background: #81B3D2;
+	border: 0;
+}
+
+.contact_1{
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+
+list-style: none;
+text-transform: uppercase;
+}
+
+.contact_1 a {
+color: #000000;}
+
+.contact_2 {
+
+list-style: none;
+text-transform: uppercase;
+
+}
+
+.logo p {
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+}

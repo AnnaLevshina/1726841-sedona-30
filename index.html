@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
 
@@ -10,13 +13,15 @@
 	<div clsss = "navigation"> 
 	<nav>
 	
-		<ul>	
+		<ul>
+			<div class="style_nav">	
 			<li><a href="blank.html">Информация</a></li>
 			<li><a href="blank.html">Фото и Видео</a></li>
 			<li><a href="index.html"><img src="img/image_0.png" width= "138" height="70"
 ></a></li>   <!-- ссылка на нлавную--->
 			<li><a href="blank.html">Карта штата</a></li>
 			<li><a href="catalog.html">Гостиницы</a></li>
+		</div>
 		</ul>
 
 	</nav>
@@ -28,20 +33,19 @@
 
 	<div class="blok_1">
 	<img src="img/backgroundphoto.png" width = "1200" height="509" alt ="Горы Седоны">
-	<p>WELCOME</p>
-	<p>to the gorgeouse</p>
-	<h1>SEDONA</h1>
-	<p>"Because the Grand Canyon sucks!"</p>
+	<img src="img/welcome.png" width = "456.65" height="350.88">
 	</div>
 
 	<section>
 		
 		<div class="blok_2">
-		<h2>Описание Седоны</h2>
 		<dl>
-			<dt>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</dt>
-			<dd>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</dd>
+			<div class="text_blok2">
+			<dt>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</dt></div>
+			<div class="text_opis">
+			<dd>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</dd></div>
 		</dl>
+
 		</div>
 
 	</section>
@@ -65,22 +69,21 @@
 	<section>													
 		
 		<div class="spisok_1">
-		<h2>Преимущества</h2>
 		<ul>
 			<li>
 				<img src="img/icon-1.ico">
 				<h3>ЖИЛЬЁ</h3>
-				<p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, КАК В КИНО!</p>
+				<p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ<br> МОТЕЛЕ, КАК В КИНО!</p>
 			</li>
 			<li>
 				<img src="img/icon-3.ico">
 				<h3>ЕДА</h3>
-				<p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР. ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+				<p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,<br> ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
 			</li>
 			<li>
 				<img src="img/icon-2.ico">
 				<h3>СУВЕНИРЫ</h3>
-				<p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+				<p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО <br> ПРОИЗВОДСТВА!</p>
 			</li>
 		</ul>
 		</div>
@@ -98,29 +101,29 @@
 		</dl>
 		</div>
 
+
+
 	</section>
 
 	<section>													
 		
-		<div class="spisok_2"> <!---->
-
-		<h2>Преимущества</h2>
+		<div class="spisok_2"> 
 		<ul>
 			
 			<li>
-				<h3>НЕБОЛЬШАЯ ПЛОЩВДЬ</h3>
+				<h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
 				<p>-№3-</p>
-				<P>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</P>
+				<p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
 			</li>
 			<li>
 				<h3>КРАСИВАЯ ДОРОГА</h3>
 				<p>-№4-</p>
-				<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+				<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
 			</li>
 			<li>
 				<h3>МАЛО ТУРИСТОВ</h3>
 				<p>-№4-</p>
-				<p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+				<p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br> И ТОЛПИТСЯ ТАМ</p>
 			</li>
 
 		</ul>
@@ -130,12 +133,17 @@
 	<section>
 		
 		<div class="map">
-		<h2>Поиск гостиницы</h2>
+
 		<dl>
-			<dt>ЗАИНТЕРЕСОВАЛИСЬ</dt>
-			<dd>УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</dd>
+			<div class="text_end">
+			<dt><p>ЗАИНТЕРЕСОВАЛИСЬ?</p></dt>
+		</div>
+			<div class="text_end_end">
+			<dd>УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, <br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</dd></div>
+		
 		</dl>
-	<button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>	
+
+	<button type="button" class="b1">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
 
 	<form action="" method="get" >  <!--не знаю что писать в action--->
 
@@ -144,7 +152,7 @@
 		<label>Взрослых:<input type="text" name="adults" value="2"></label>
 		<label>Детей:<input type="text" name="adults" value="0"></label>
 
-		<button type="button">НАЙТИ<a href="catalog.html"></a></button>	
+		<button type="button" class="b2">НАЙТИ<a href="catalog.html"></a></button>	
 
 	</form>
 	<figure><img src="img/image_4.png" width = "1199" height="594" alt="Карта"></figure>
@@ -161,43 +169,40 @@
 		<div class="footer">
 
 		<div class="contact_1">
-		<h2>Как нас найти</h2>
 		<p>
 			<a href="blank.html">#VISITSEDONA</a><br>
 			ТЕЛ:<a href="tel:+74956660166">+7(495) 666-01-66</a>
 		</p>
 		</div>
 
-		<div class =  "contact_2">
-		<h2>Давайте дружить</h2>
+		
 		<ul>
-			
+		<div class =  "contact_2">	
 			<li>
 				<div class ="icons">
-				<a href="#">Твитр</a>
-				<img src="img/Rectangle.png">
+				<a href="#"></a>
+				<img src="img/Rectangle.png" >
 				<img src="img/twitter.png">
 				</div>
 			</li>
 			<li>
 				<div class ="icons">
-					<a href="#">Facebook</a>
+					<a href="#"></a>
 					<img src="img/Rectangle.png">
 					<img src="img/fb-icon.png">
 				</div>
 			</li>
 			<li>
 				<div class ="icons">
-					<a href="#">Ютуб</a>
+					<a href="#"></a>
 					<img src="img/Rectangle.png">
 					<img src="img/youtube.png">
 				</div>
-			</li>
+			</li></div>
 		</ul>
-		</div>
+		
 
 		<div class="logo">
-		<h2>Разработан</h2>
 		<p>Website by</p>
 		<img src="img/image_3.png" width = "115" height="41" alt="HTML Academy">
 		</div>
