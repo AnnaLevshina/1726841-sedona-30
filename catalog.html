@@ -3,36 +3,91 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-<header>
-	<div clsss = "navigation"> 
+    <style>
+   @font-face {
+    font-family: PTSans; /* Имя шрифта */
+    src: url(fonts/PTSans.woff); /* Путь к файлу со шрифтом */
+   }
+   P {
+    font-family: PTSans;
+   }
+  </style>
+
+  <style>
+   @font-face {
+    font-family: PTSans2; /* Имя шрифта */
+    src: url(fonts/PTSans.woff2); /* Путь к файлу со шрифтом */
+   }
+   P {
+    font-family: PTSans2;
+   }
+  </style>
+
+  <style>
+   @font-face {
+    font-family: PTSans-Bold; /* Имя шрифта */
+    src: url(fonts/PTSans-Bold.woff); /* Путь к файлу со шрифтом */
+   }
+   P {
+    font-family: PTSans-Bold;
+   }
+  </style>
+
+  <style>
+   @font-face {
+    font-family: PTSans-Bold2; /* Имя шрифта */
+    src: url(fonts/PTSans-Bold.woff2); /* Путь к файлу со шрифтом */
+   } 
+   P {
+    font-family: PTSans-Bold2;
+   }
+  </style> 
+
+  <link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style_catalog.css"/>
+  </head>
+  <body class="body">
+
+<header >
+	<div class = "navigation"> 
 	<nav>
 	
-		<ul>	
-			<li><a href="blank.html">Информация</a></li>
-			<li><a href="blank.html">Фото и Видео</a></li>
-			<li><a href="index.html"><img src="img/image_0.png"></a></li>   <!-- ссылка на нлавную--->
-			<li><a href="blank.html">Карта штата</a></li>
-			<li><a href="catalog.html">Гостиницы</a></li>
+		<ul>
+			<div class="style_nav">	
+			<li class="nav_information"><a href="#">Информация</a></li>
+			<li class="nav_foto_and_vidio"><a href="#">Фото и Видео</a></li>
+			<li class="nav_logo"><figure><a href="index.html"><img src="img/logo.svg" alt="Логотип Седоны"></a></figure></li>   <!-- ссылка на нлавную--->
+			<li class="nav_map"><a href="#">Карта штата</a></li>
+			<li class="nav_hotels"><a href="catalog.html">Гостиницы</a></li>
+		</div>
 		</ul>
 
 	</nav>
 	</div>
 </header>
 
-<main>
 
+<main>
 	<section>
-		<img src="img/catalog/image_0.png">
+		<img src="img/catalog/background.png" class="image_catalog">
 		<div class="blok_1">
 		<div class="infrostructuct">
 			<p>ИНФРАСТРУКТУРА:</p>
 			<ul>
-				<li><input type="checkbox" checked>БАССЕЙН</li>
-				<li><input type="checkbox">ПАРКОВКА</li>
-				<li><input type="checkbox">WI-FI</li>
+				<li class="infrostructuct_li1">
+					<input type="checkbox" class="basseyn" checked>
+					<label>БАССЕЙН</label>
+				</li>
+				<li class="infrostructuct_li2">
+					<input type="checkbox" class="parking">
+					<label>ПАРКОВКА</label>
+				</li>
+				<li class="infrostructuct_li3">
+					<input type="checkbox" class="wi_fi">
+					<label>WI-FI</label>
+				</li>
 
 			</ul>
 		</div>
@@ -40,26 +95,36 @@
 		<div class="type_house">
 			<p>ТИП ЖИЛЬЯ</p>
 			<ul>
-				<li><input type="checkbox" checked>ГОСТИНИЦА</li>
-				<li><input type="checkbox" checked>МОТЕЛЬ</li>
-				<li><input type="checkbox" checked>АПАРТАМЕНТЫ</li>
+				<li class="type_house_li1">
+					<input type="checkbox" class="hotell" checked>
+					<label>ГОСТИНИЦА</label> 
+				</li>
+				<li class="type_house_li2">
+					<input type="checkbox" class="motell" checked>
+					<label>МОТЕЛЬ</label>
+				</li>
+				<li class="type_house_li3">
+					<input type="checkbox" class="appartaments" checked>
+					<label>АПАРТАМЕНТЫ</label>
+				</li>
 			</ul>
 		</div>
 
 		<div class="praice">
 			<p>СТОИМОСТЬ В СУТКИ(Р):</p>
-			<table border="1">
+			<table border="1" class="table_praice">
 				<tr>
 					<td>от 0</td>
 					<td>до 3000</td>
 				</tr>
 			</table>
-			<input type="range">
-			<button>ПОКАЗАТЬ</button>
+			<input type="range" class="table_praice_range">
+			<button type="button" class="b1">ПОКАЗАТЬ</button>
 		</div>
 		</div>
 	</section>
 
+	<section class="hostell_main">
 	<div class="sortirovka">
 		<p>НАЙДЕНО: 3</p>
 		<ul>
@@ -130,63 +195,62 @@
 			</table>
 		</div>
 	</div>
-
+	</section>
 
 </main>
 
 <footer>
 	
-	<section>
+	<section class="section_footer">
 
 		<div class="footer">
 
 		<div class="contact_1">
-		<h2>Как нас найти</h2>
-		<p>
-			<a href="blank.html">#VISITSEDONA</a><br>
-			ТЕЛ:<a href="tel:+74956660166">+7(495) 666-01-66</a>
+		<p class="footer_p1">
+			<a href="blank.html">#VISITSEDONA</a>
 		</p>
+		<p class="footer_p_tel">
+			<a href="tel:+74956660166">ТЕЛ:+7(495) 666-01-66</a>
+		</p>
+		
 		</div>
 
-		<div class =  "contact_2">
-		<h2>Давайте дружить</h2>
-		<ul>
-
+		
+		<ul class="footer_ul">
+		<div class =  "contact_2">	
 			<li>
 				<div class ="icons">
-				<a href="#">Твитр</a>
-				<img src="img/Rectangle.png">
-				<img src="img/twitter.png">
+				<a href="#"><img src="img/blue_box.svg" class="blue_box">
+				<img src="img/twitter.svg" class="twitter"></a>
+				
 				</div>
 			</li>
 			<li>
 				<div class ="icons">
-					<a href="#">Facebook</a>
-					<img src="img/Rectangle.png">
-					<img src="img/fb-icon.png">
+					<a href="#"><img src="img/blue_box.svg" class="blue_box2">
+					<img src="img/fb-icon.svg" class="fb-icon"></a>
+					
 				</div>
 			</li>
 			<li>
 				<div class ="icons">
-					<a href="#">Ютуб</a>
-					<img src="img/Rectangle.png">
-					<img src="img/youtube.png">
+					<a href="#"><img src="img/blue_box.svg" class="blue_box3">
+					<img src="img/youtube.svg" class="youtube"></a>
+					
 				</div>
-			</li>
+			</li></div>
 		</ul>
-		</div>
+		
 
 		<div class="logo">
-		<h2>Разработан</h2>
-		<p>Website by</p>
-		<img src="img/image_3.png">
+		<p class="footer_logo_p">Website by</p>
+		<img src="img/logo-htmlacademy.svg" class="footer_logo_img" alt="HTML Academy">
 		</div>
 
 		</div>
 	</section>
 
 </footer>
-
 
   </body>
 </html>

@@ -1,0 +1,656 @@
+html {
+	background: #F2F2F2;
+}
+
+
+.navigation {
+	position: absolute;
+	width: 1200px;
+	height: 56px;
+	left: 0px;
+	background: white;
+
+}
+
+.style_nav {
+	font-family: PTSans-Bold;
+	font-style: normal;
+	/*font-weight: bold;*/
+	font-size: 14px;
+	line-height: 26px;
+
+	list-style: none;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.style_nav a {
+	color: #000000;	
+}
+
+.nav_information {
+	position: absolute;
+	width: 94px;
+	height: 26px;
+	left: 72px;
+	top: 15px;
+}
+
+.nav_foto_and_vidio {
+
+	position: absolute;
+	width: 98px;
+	height: 26px;
+	left: 300px;
+	top: 15px;
+}
+
+.nav_logo {
+
+	position: absolute; 
+	width: 138px;
+	height: 70px;
+	left: 531px;
+	top: 0px;
+	z-index: 1;
+}
+
+.nav_map {
+
+	position: absolute;
+	width: 85px;
+	height: 26px;
+	left: 816px;
+	top: 15px;
+}
+
+.nav_hotels {
+
+	position: absolute;
+	width: 80px;
+	height: 26px;
+	left: 1048px;
+	top: 15px;
+}
+
+
+.body {
+position: absolute;
+width: 1200px;
+height: 933px;
+left: 40px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+}
+.image_catalog {
+	
+	position: absolute;
+	width: 1200px;
+	height: 217px;
+	left: 0px;
+	top: 56px;
+}
+
+.infrostructuct {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 72px;
+	top: 82.55px;
+	list-style: none;
+
+}
+
+.type_house {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 326px;
+	top: 82.55px;
+	list-style: none;
+
+}
+
+
+.praice {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 810px;
+	top: 82.55px;
+	list-style: none;
+}
+
+.infrostructuct p {
+
+	position: absolute;
+	width: 135px;
+	height: 21px;	
+	left: 0px;
+	top: 0px;
+	
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	/* identical to box height, or 131% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.infrostructuct_li1 {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 0px;
+	top: 45px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal; /* не понимаю почему не уберается жирность везде*/
+	font-size: 14px;	
+	line-height: 21px;
+/* identical to box height, or 150% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.infrostructuct_li1 label {
+	position: absolute;
+	margin-left: 40px;
+	left: 0px;
+	top: 0px;
+	width: 58px;
+height: 21px;
+}
+
+.basseyn {
+
+	position: absolute;
+	width: 27px;
+	height: 23px;
+	left: 0px;
+	top: 0px;
+}
+
+.infrostructuct_li2 {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 0px;
+	top: 91px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;	
+	line-height: 21px;
+/* identical to box height, or 150% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.infrostructuct_li2 label {
+	position: absolute;
+	margin-left: 40px;
+	left: 0px;
+	top: 0px;
+	width: 69px;
+height: 21px;
+}
+
+.parking {
+
+	position: absolute;
+	width: 27px;
+	height: 23px;
+	left: 0px;
+	top: 0px;
+}
+
+.infrostructuct_li3 {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 0px;
+	top: 137px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;	
+	line-height: 21px;
+/* identical to box height, or 150% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.infrostructuct_li3 label {
+	position: absolute;
+	margin-left: 40px;
+	left: 0px;
+	top: 0px;
+	width: 33px;
+height: 21px;
+}
+
+.wi_fi {
+
+	position: absolute;
+	width: 27px;
+	height: 23px;
+	left: 0px;
+	top: 0px;
+}
+
+
+.type_house p {
+
+	position: absolute;
+	width: 135px;
+	height: 21px;	
+	left: 0px;
+	top: 0px;
+	
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	/* identical to box height, or 131% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.type_house_li1 {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 0px;
+	top: 45px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal; /* не понимаю почему не уберается жирность везде*/
+	font-size: 14px;	
+	line-height: 21px;
+/* identical to box height, or 150% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.type_house_li1 label {
+	position: absolute;
+	margin-left: 40px;
+	left: 0px;
+	top: 0px;
+	width: 58px;
+height: 21px;
+}
+
+.hotell {
+
+	position: absolute;
+	width: 27px;
+	height: 23px;
+	left: 0px;
+	top: 0px;
+}
+
+.type_house_li2 {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 0px;
+	top: 91px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;	
+	line-height: 21px;
+/* identical to box height, or 150% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.type_house_li2 label {
+	position: absolute;
+	margin-left: 40px;
+	left: 0px;
+	top: 0px;
+	width: 69px;
+	height: 21px;
+}
+
+.motell {
+
+	position: absolute;
+	width: 27px;
+	height: 23px;
+	left: 0px;
+	top: 0px;
+}
+
+.type_house_li3 {
+
+	position: absolute;
+	width: 58px;
+	height: 21px;
+	left: 0px;
+	top: 137px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;	
+	line-height: 21px;
+/* identical to box height, or 150% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.type_house_li3 label {
+	position: absolute;
+	margin-left: 40px;
+	left: 0px;
+	top: 0px;
+	width: 33px;
+height: 21px;
+}
+
+.appartaments {
+
+	position: absolute;
+	width: 27px;
+	height: 23px;
+	left: 0px;
+	top: 0px;
+}
+
+
+.praice p {
+
+	position: absolute;
+	width: 180px;
+	height: 21px;	
+	left: 0px;
+	top: 0px;
+	
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	/* identical to box height, or 131% */
+	
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.table_praice {
+
+	position: absolute;
+	width: 317px;
+	height: 36px;	
+	left: 0px;
+	top: 31.5px;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.table_praice td {
+	width: 156px;
+	color:  #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.table_praice_range {
+
+	position: absolute;
+	width: 316px;
+	height: 2px;
+	left: 0px;
+	top: 87.5px;
+	
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+/*opacity: 0.3;*/
+}
+
+.b1 {
+
+	position: absolute;
+	width: 137px;
+	height: 36px;
+	left: 80px;
+	top: 122.5px;
+
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-color:transparent ;
+	color:#FFFFFF;
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold; 
+}
+
+.hostell_main { 
+
+	position: absolute;
+	width: 1200px;
+	height: 540px;
+	left: 43px;
+	top: 273px;
+}
+
+.sortirovka {
+	width: 1054px;
+	height: 26px;
+	left: 73px;
+	top: 229px;
+}
+
+.sortirovka p {
+	width: 117px;
+	height: 26px;
+	left: 0px;
+	top: 0px;
+}
+
+
+
+
+
+.footer_p1 {
+position: absolute;
+left: 163px;
+right: 73.42%;
+top: 25px;
+bottom: 59.17%;
+
+font-family: PTSans-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+
+}
+
+.footer_p_tel {
+
+position: absolute;
+left: 115px;
+right: 73.42%;
+top: 60px;
+bottom: 59.17%;
+width: 251px;
+
+font-family: PTSans-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+}
+
+.contact_1 a {
+
+color: #000000;}
+
+.footer_ul {
+list-style-type: none;
+
+}
+
+.blue_box {
+
+position: absolute;
+left: 525px;
+right: 52.42%;
+top: 36px;
+bottom: 30%;
+
+background: #81B3D2;
+}
+
+.twitter {
+
+position: absolute;
+left: 541px;
+right: 53.58%;
+top: 53px;
+bottom: 42.5%;
+
+}
+
+.blue_box2 {
+
+position: absolute;
+left: 577px;
+right: 52.42%;
+top: 36px;
+bottom: 30%;
+
+background: #81B3D2;
+}
+
+.fb-icon {
+
+position: absolute;
+left: 593px;
+right: 52.42%;
+top: 50px;
+bottom: 30%;
+}
+
+.blue_box3 {
+
+position: absolute;
+left: 629px;
+right: 52.42%;
+top: 36px;
+bottom: 30%;
+
+background: #81B3D2;
+}
+
+.youtube {
+
+position: absolute;
+left: 643px;
+right: 52.42%;
+top: 53px;
+bottom: 30%;
+
+}
+
+.footer_logo_p {
+
+position: absolute;
+left: 865px;
+right: 21.75%;
+top: 50px;
+bottom: 37.5%;
+
+font-family: PTSans-Bold;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+}
+
+.footer_logo_img {
+
+	position: absolute;
+left: 937px;
+right: 52.42%;
+top: 38px;
+bottom: 30%;
+
+}
+
+.section_footer{
+position: absolute;
+	width: 1203px;
+	height: 120px;
+	top: 813px;
+	left: 0px;
+	background: white;
+	}
