@@ -80,14 +80,15 @@ html {
 
 
 .body {
-position: absolute;
-width: 1200px;
-height: 933px;
-left: 40px;
-top: 0px;
+	position: absolute;
+	width: 1200px;
+	height: 933px;
+	left: 40px;
+	top: 0px;
 
-background: #FFFFFF;
-box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+	background: #FFFFFF;
+	box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+
 }
 .image_catalog {
 	
@@ -181,7 +182,7 @@ box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
 	left: 0px;
 	top: 0px;
 	width: 58px;
-height: 21px;
+	height: 21px;
 }
 
 .basseyn {
@@ -221,7 +222,7 @@ height: 21px;
 	left: 0px;
 	top: 0px;
 	width: 69px;
-height: 21px;
+	height: 21px;
 }
 
 .parking {
@@ -261,7 +262,7 @@ height: 21px;
 	left: 0px;
 	top: 0px;
 	width: 33px;
-height: 21px;
+	height: 21px;
 }
 
 .wi_fi {
@@ -324,7 +325,7 @@ height: 21px;
 	left: 0px;
 	top: 0px;
 	width: 58px;
-height: 21px;
+	height: 21px;
 }
 
 .hotell {
@@ -404,7 +405,7 @@ height: 21px;
 	left: 0px;
 	top: 0px;
 	width: 33px;
-height: 21px;
+	height: 21px;
 }
 
 .appartaments {
@@ -497,7 +498,7 @@ height: 21px;
 	position: absolute;
 	width: 1200px;
 	height: 540px;
-	left: 43px;
+	left: 40px;
 	top: 273px;
 }
 
@@ -505,152 +506,758 @@ height: 21px;
 	width: 1054px;
 	height: 26px;
 	left: 73px;
-	top: 229px;
+	top: 29px;
 }
 
 .sortirovka p {
+	position: absolute;
 	width: 117px;
 	height: 26px;
-	left: 0px;
-	top: 0px;
+	left:26px;
+	top: 30px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #000000;
 }
 
+.sortirovka_li1 {
 
+	position: absolute;
+	width: 75px;
+	height: 18px;
+	left: 200px;
+	top: 35px;
 
+	font-family: PTSans2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height, or 150% */
 
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #000000;
+}
 
-.footer_p1 {
-position: absolute;
-left: 163px;
-right: 73.42%;
-top: 25px;
-bottom: 59.17%;
+.sortirovka_li2 {
+
+	position: absolute;
+	width: 70px;
+	height: 18px;
+	left: 310px;
+	top: 35px;
+
+	font-family: PTSans2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height, or 150% */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #000000 /*#81B3D2*/;  /*при наведении и нажатии должн менятся цвет*/
+}
+
+.sortirovka_li2 label {
+	margin-left: 15px;
+	position: absolute;
+	top: 0px;
+
+}
+
+/*.sortirovka_li2 {
+
+	position: absolute;
+width: 70px;
+height: 18px;
+left: 310px;
+top: 35px;
 
 font-family: PTSans-Bold;
 font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 26px;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+ identical to box height, or 150% 
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #81B3D2;
+}
+
+.sortirovka_li2 label {
+	margin-left: 15px;
+	position: absolute;
+	top: 0px;
+
+}*/
+
+.sortirovka_li3 {
+
+	position: absolute;
+	width: 70px;
+	height: 18px;
+	left: 410px;
+	top: 35px;
+
+	font-family: PTSans2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height, or 150% */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+
+}
+
+.sortirovka_li3 label {
+	margin-left: 15px;
+	position: absolute;
+	top: 0px;
+	color: #000000;
+
+}
+
+.sortirovka_li4 {
+
+	position: absolute;
+	width: 95px;
+	height: 18px;
+	left: 510px;
+	top: 35px;
+
+	font-family: PTSans2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height, or 150% */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+
+}
+
+.sortirovka_li4 label {
+	margin-left: 15px;
+	position: absolute;
+	top: 0px;
+	color: #000000;
+}
+
+.imag_down {
+
+	position: absolute;
+	width: 11px;
+	height: 10px;
+	left: 1055px;
+	top: 35px;
+}
+
+.imag_up {
+
+	position: absolute;
+	width: 11px;
+	height: 10px;
+	left: 1080px;
+	top: 35px;
+	}
+
+.image_line {
+
+	position: absolute;
+	width: 1200px;
+	height: 1px;
+	left: -40px;
+	top: 77px;
+}
+
+.hotell_1 {
+	position: absolute;
+	width: 1200px;
+	height: 148px;
+	left: 0px;
+	top: 103px;
+
+}
+
+.image_hotell{
+	position: absolute;
+	top: 2px;
+}
+
+.hotell_1 h2 {
+
+	width: 240px;
+	height: 26px;
+
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.hotell_p {
+
+	width: 107px;
+	height: 21px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.hotell_praice {
+	width: 96px;
+	height: 21px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+
+}
+
+.b_more_details1 {
+	width: 110px;
+	height: 27px;
+
+	background: #81B3D2;
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #FFFFFF;
+
+}
+
+.b_more_details2 {
+	width: 142px;
+	height: 27px;
+
+	background: #766357;
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #FFFFFF;
+
+}
+
+.star_hotell_1 {
+
+	width: 19px;
+	height: 17px;
+}
+
+.star_hotell_2 {
+
+	width: 19px;
+	height: 17px;
+}
+.star_hotell_3 {
+
+	width: 19px;
+	height: 17px;								
+}
+.star_hotell_4 {
+
+	width: 19px;
+	height: 17px;
+}
+
+.table_rating_hotell {
+	width: 110px;
+	height: 27px;
+
+	background: #F2F2F2;
+}
+
+.table_rating_hotell_td {
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #666666;
+}
+
+.image_line2 {
+
+	width: 1200px;
+	height: 1px;
+}
+
+.hotell_2 {
+	width: 1200px;
+	height: 148px;
+
+}
+
+.image_motell{
+}
+
+.hotell_2 h2 {
+
+	width: 240px;
+	height: 26px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.hotell_2_p_motell {
+
+	width: 107px;
+	height: 21px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.hotell_2_praice {
+	width: 96px;
+	height: 21px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+
+}
+
+.b2_more_details1 {
+	width: 110px;
+	height: 27px;
+
+	background: #81B3D2;
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #FFFFFF;
+
+}
+
+.b2_more_details2 {
+	width: 142px;
+	height: 27px;
+
+	background: #766357;
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #FFFFFF;
+
+}
+
+.star_hotel2_1 {
+
+	width: 19px;
+	height: 17px;
+}
+
+.star_hotel2_2 {
+
+	width: 19px;
+	height: 17px;
+}
+.star_hotel2_3 {
+
+	width: 19px;
+	height: 17px;
+}
+
+.table_rating_motell {
+	width: 110px;
+	height: 27px;
+
+	background: #F2F2F2;
+}
+
+.table_rating_motell_td {
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #666666;
+}
+
+.image_line3 {
+
+	width: 1200px;
+	height: 1px;
+}
+
+
+.hotell_3 {
+	width: 1200px;
+	height: 148px;
+
+}
+
+.image_appartament{
+}
+
+.hotell_3 h2 {
+
+	width: 240px;
+	height: 26px;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.hotell_3_p_appartament {
+
+	width: 107px;
+	height: 21px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.hotell_3_praice {
+	width: 96px;
+	height: 21px;
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+
+}
+
+.b3_more_details1 {
+	width: 110px;
+	height: 27px;
+
+	background: #81B3D2;
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #FFFFFF;
+
+}
+
+.b3_more_details2 {
+	width: 142px;
+	height: 27px;
+
+	background: #766357;
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #FFFFFF;
+
+}
+
+.star_hotel3_1 {
+
+		width: 19px;
+		height: 17px;
+
+}
+
+.star_hotel3_2 {
+
+	width: 19px;
+	height: 17px;
+}
+
+.table_rating_appartament {
+	width: 110px;
+	height: 27px;
+
+	background: #F2F2F2;
+}
+
+.table_rating_appartament_td {
+
+	font-family: PTSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 124% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	justify-content: center;
+
+	border: 0;
+	padding: 0;
+
+	color: #666666;
+}
+
+.image_line4 {
+
+	width: 1200px;
+	height: 1px;
+}
+
+
+.footer_p1 {
+	right: 73.42%;
+	bottom: 59.17%;
+
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
 
 }
 
 .footer_p_tel {
 
-position: absolute;
-left: 115px;
-right: 73.42%;
-top: 60px;
-bottom: 59.17%;
-width: 251px;
+	right: 73.42%;
+	bottom: 59.17%;
+	width: 251px;
 
-font-family: PTSans-Bold;
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 26px;
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
 }
 
 .contact_1 a {
 
-color: #000000;}
+	color: #000000;}
 
 .footer_ul {
-list-style-type: none;
+	list-style-type: none;
 
 }
 
 .blue_box {
+	right: 52.42%;
+	bottom: 30%;
 
-position: absolute;
-left: 525px;
-right: 52.42%;
-top: 36px;
-bottom: 30%;
-
-background: #81B3D2;
+	background: #81B3D2;
 }
 
 .twitter {
 
-position: absolute;
-left: 541px;
-right: 53.58%;
-top: 53px;
-bottom: 42.5%;
+	right: 53.58%;
+	bottom: 42.5%;
 
 }
 
 .blue_box2 {
 
-position: absolute;
-left: 577px;
-right: 52.42%;
-top: 36px;
-bottom: 30%;
+	right: 52.42%;
+	bottom: 30%;
 
-background: #81B3D2;
+	background: #81B3D2;
 }
 
 .fb-icon {
 
-position: absolute;
-left: 593px;
-right: 52.42%;
-top: 50px;
-bottom: 30%;
+	right: 52.42%;
+	bottom: 30%;
 }
 
 .blue_box3 {
 
-position: absolute;
-left: 629px;
-right: 52.42%;
-top: 36px;
-bottom: 30%;
+	right: 52.42%;
+	bottom: 30%;
 
-background: #81B3D2;
+	background: #81B3D2;
 }
 
 .youtube {
 
-position: absolute;
-left: 643px;
-right: 52.42%;
-top: 53px;
-bottom: 30%;
+	right: 52.42%;
+	bottom: 30%;
 
 }
 
 .footer_logo_p {
 
-position: absolute;
-left: 865px;
-right: 21.75%;
-top: 50px;
-bottom: 37.5%;
+	right: 21.75%;
+	bottom: 37.5%;
 
-font-family: PTSans-Bold;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 26px;
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
 }
 
 .footer_logo_img {
 
-	position: absolute;
-left: 937px;
-right: 52.42%;
-top: 38px;
-bottom: 30%;
+	right: 52.42%;
+	bottom: 30%;
 
 }
 
 .section_footer{
-position: absolute;
-	width: 1203px;
+	width: 1200px;
 	height: 120px;
-	top: 813px;
-	left: 0px;
 	background: white;
-	}
+}

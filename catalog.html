@@ -1,256 +1,309 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+<html class="page" lang="ru">
+	 	<head>
+		    <meta charset="utf-8">
+		    <title>HTML Academy: Седона</title>
 
-    <style>
-   @font-face {
-    font-family: PTSans; /* Имя шрифта */
-    src: url(fonts/PTSans.woff); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: PTSans;
-   }
-  </style>
+		    <style>
+				@font-face {
+				    font-family: PTSans; /* Имя шрифта */
+				    src: url(fonts/PTSans.woff); /* Путь к файлу со шрифтом */
+				}
+			    P {
+			 	    font-family: PTSans;
+			    }
+		  	</style>
 
-  <style>
-   @font-face {
-    font-family: PTSans2; /* Имя шрифта */
-    src: url(fonts/PTSans.woff2); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: PTSans2;
-   }
-  </style>
+		  	<style>
+					@font-face {
+						font-family: PTSans2; /* Имя шрифта */
+						src: url(fonts/PTSans.woff2); /* Путь к файлу со шрифтом */
+					}
+					P {
+						font-family: PTSans2;
+					}
+		  	</style>
 
-  <style>
-   @font-face {
-    font-family: PTSans-Bold; /* Имя шрифта */
-    src: url(fonts/PTSans-Bold.woff); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: PTSans-Bold;
-   }
-  </style>
+			<style>
+				@font-face {
+				    font-family: PTSans-Bold; /* Имя шрифта */
+				    src: url(fonts/PTSans-Bold.woff); /* Путь к файлу со шрифтом */
+				}
+				P {
+				    font-family: PTSans-Bold;
+				}
+			</style>
 
-  <style>
-   @font-face {
-    font-family: PTSans-Bold2; /* Имя шрифта */
-    src: url(fonts/PTSans-Bold.woff2); /* Путь к файлу со шрифтом */
-   } 
-   P {
-    font-family: PTSans-Bold2;
-   }
-  </style> 
+			<style>
+				@font-face {
+					font-family: PTSans-Bold2; /* Имя шрифта */
+				    src: url(fonts/PTSans-Bold.woff2); /* Путь к файлу со шрифтом */
+				} 
+				P {
+				    font-family: PTSans-Bold2;
+				}
+			</style> 
 
-  <link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/style_catalog.css"/>
-  </head>
-  <body class="body">
+			<link rel="icon" href="favicon.ico">
+			<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		    <link rel="stylesheet" href="css/styles.css"/>
+		</head>
+	<body class="body">
 
-<header >
-	<div class = "navigation"> 
-	<nav>
-	
-		<ul>
-			<div class="style_nav">	
-			<li class="nav_information"><a href="#">Информация</a></li>
-			<li class="nav_foto_and_vidio"><a href="#">Фото и Видео</a></li>
-			<li class="nav_logo"><figure><a href="index.html"><img src="img/logo.svg" alt="Логотип Седоны"></a></figure></li>   <!-- ссылка на нлавную--->
-			<li class="nav_map"><a href="#">Карта штата</a></li>
-			<li class="nav_hotels"><a href="catalog.html">Гостиницы</a></li>
-		</div>
-		</ul>
-
-	</nav>
-	</div>
-</header>
-
-
-<main>
-	<section>
-		<img src="img/catalog/background.png" class="image_catalog">
-		<div class="blok_1">
-		<div class="infrostructuct">
-			<p>ИНФРАСТРУКТУРА:</p>
-			<ul>
-				<li class="infrostructuct_li1">
-					<input type="checkbox" class="basseyn" checked>
-					<label>БАССЕЙН</label>
-				</li>
-				<li class="infrostructuct_li2">
-					<input type="checkbox" class="parking">
-					<label>ПАРКОВКА</label>
-				</li>
-				<li class="infrostructuct_li3">
-					<input type="checkbox" class="wi_fi">
-					<label>WI-FI</label>
-				</li>
-
-			</ul>
-		</div>
-
-		<div class="type_house">
-			<p>ТИП ЖИЛЬЯ</p>
-			<ul>
-				<li class="type_house_li1">
-					<input type="checkbox" class="hotell" checked>
-					<label>ГОСТИНИЦА</label> 
-				</li>
-				<li class="type_house_li2">
-					<input type="checkbox" class="motell" checked>
-					<label>МОТЕЛЬ</label>
-				</li>
-				<li class="type_house_li3">
-					<input type="checkbox" class="appartaments" checked>
-					<label>АПАРТАМЕНТЫ</label>
-				</li>
-			</ul>
-		</div>
-
-		<div class="praice">
-			<p>СТОИМОСТЬ В СУТКИ(Р):</p>
-			<table border="1" class="table_praice">
-				<tr>
-					<td>от 0</td>
-					<td>до 3000</td>
-				</tr>
-			</table>
-			<input type="range" class="table_praice_range">
-			<button type="button" class="b1">ПОКАЗАТЬ</button>
-		</div>
-		</div>
-	</section>
-
-	<section class="hostell_main">
-	<div class="sortirovka">
-		<p>НАЙДЕНО: 3</p>
-		<ul>
-			<li>СОРТИРОВКА:</li>
-			<li><input type="radio">ПО ЦЕНЕ</li>
-			<li><input type="radio">ПО ТИПУ</li>
-			<li><input type="radio">ПО РЕЙТИНГУ</li>
-		</ul>
-		<div>
-			<img src="img/strel_1.png">
-			<img src="img/strel_2.png">
-		</div>
-	</div>
-
-	<div class="hotells">
-		<div class="hotell_1">
-			<img src="img/catalog/image_1.png">
-			<h2>AMARA RESORT & SPA</h2>
-			<p>ГОСТИНИЦА</p>
-			<p>ОТ 4000 Р.</p>
-			<button>ПОДРОБНЕЕ</button>
-			<button>ЗАБРОНИРОВАТЬ</button>
-			<div class="star">
-				<img src="img/Shape.png">
-				<img src="img/Shape.png">
-				<img src="img/Shape.png">
-				<img src="img/Shape.png">
+		<header >
+			<div class = "navigation">
+				<nav>
+					<ul class="style_nav">
+							<li class="nav_information">
+								<a href="#">Информация</a>
+							</li>
+							<li class="nav_foto_and_vidio">
+								<a href="#">Фото и Видео</a>
+							</li>
+							<li class="nav_logo">
+								<figure>
+									<a href="index.html">
+										<img src="img/logo.svg" alt="Логотип Седоны">
+									</a>
+								</figure>
+							</li>   
+							<li class="nav_map">
+								<a href="#">Карта штата</a>
+							</li>
+							<li class="nav_hotels">
+								<a href="catalog.html">Гостиницы</a>
+							</li>
+					</ul>
+				</nav>
 			</div>
-			<table>
-				<tr>
-					<td>РЕЙТИНГ: 8,5</td>
-				</tr>
-			</table>
-		</div>
-		<div class="hotell_2">
-			<img src="img/catalog/image_2.png">
-			<h2>DESERT QUAIL INN</h2>
-			<p>МОТЕЛЬ</p>
-			<p>ОТ 3000 Р.</p>
-			<button>ПОДРОБНЕЕ</button>
-			<button>ЗАБРОНИРОВАТЬ</button>
-			<div>
-				<img src="img/Shape.png">
-				<img src="img/Shape.png">
-				<img src="img/Shape.png">
-			</div>
-			<table>
-				<tr>
-					<td>РЕЙТИНГ: 8,9</td>
-				</tr>
-			</table>
-		</div>
-		<div class="hotell_3">
-			<img src="img/catalog/image_3.png">
-			<h2>VILLAS AT POCO DIABLO</h2>
-			<p>АПАРТАМЕНТЫ</p>
-			<p>ОТ 2000 Р.</p>
-			<button>ПОДРОБНЕЕ</button>
-			<button>ЗАБРОНИРОВАТЬ</button>
-			<div>
-				<img src="img/Shape.png">
-				<img src="img/Shape.png">
-			</div>
-			<table>
-				<tr>
-					<td>РЕЙТИНГ: 9,2</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	</section>
+		</header>
 
-</main>
 
-<footer>
-	
-	<section class="section_footer">
+		<main>
 
-		<div class="footer">
+			<section>
 
-		<div class="contact_1">
-		<p class="footer_p1">
-			<a href="blank.html">#VISITSEDONA</a>
-		</p>
-		<p class="footer_p_tel">
-			<a href="tel:+74956660166">ТЕЛ:+7(495) 666-01-66</a>
-		</p>
-		
-		</div>
+				<img src="img/catalog/background.png" class="image_catalog">
+				<div class="blok_1">
+					<div class="infrostructuct">
+						<p>ИНФРАСТРУКТУРА:</p>
+						<ul>
+							<li class="infrostructuct_li1">
+								<input type="checkbox" class="basseyn" checked>
+								<label>БАССЕЙН</label>
+							</li>
+							<li class="infrostructuct_li2">
+								<input type="checkbox" class="parking">
+								<label>ПАРКОВКА</label>
+							</li>
+							<li class="infrostructuct_li3">
+								<input type="checkbox" class="wi_fi">
+								<label>WI-FI</label>
+							</li>
 
-		
-		<ul class="footer_ul">
-		<div class =  "contact_2">	
-			<li>
-				<div class ="icons">
-				<a href="#"><img src="img/blue_box.svg" class="blue_box">
-				<img src="img/twitter.svg" class="twitter"></a>
+						</ul>
+					</div>
+
+					<div class="type_house">
+						<p>ТИП ЖИЛЬЯ</p>
+						<ul>
+							<li class="type_house_li1">
+								<input type="checkbox" class="hotell" checked>
+								<label>ГОСТИНИЦА</label> 
+							</li>
+							<li class="type_house_li2">
+								<input type="checkbox" class="motell" checked>
+								<label>МОТЕЛЬ</label>
+							</li>
+							<li class="type_house_li3">
+								<input type="checkbox" class="appartaments" checked>
+								<label>АПАРТАМЕНТЫ</label>
+							</li>
+						</ul>
+					</div>
+
+					<div class="praice">
+						<p>СТОИМОСТЬ В СУТКИ(Р):</p>
+						<table border="1" class="table_praice">
+							<tr>
+								<td>от 0</td>
+								<td>до 3000</td>
+							</tr>
+						</table>
+						<input type="range" class="table_praice_range">
+						<button type="button" class="b1">ПОКАЗАТЬ</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="hostell_main">
+				<div class="sortirovka">
+						<p>НАЙДЕНО: 3</p>
+						<ul>
+							<li class="sortirovka_li1">
+								СОРТИРОВКА:
+							</li>
+							<li class="sortirovka_li2">
+								<input type="radio" class="to_praice" name = "cnopka">
+								<label>ПО ЦЕНЕ</label>
+							</li>
+							<li class="sortirovka_li3">
+								<input type="radio" class="to_type" name = "cnopka">
+								<label>ПО ТИПУ</label>
+							</li>
+							<li class="sortirovka_li4">
+								<input type="radio" class="to_rating" name = "cnopka">
+								<label>ПО РЕЙТИНГУ</label>
+							</li>
+						</ul>
+						<div class="image_up_down">
+							
+							<img src="img/catalog/icon-up-dir.svg" class="imag_down">
+							<img src="img/catalog/icon-down-dir.svg" class="imag_up">
+							
+						</div>
+						<figure><img src="img/catalog/line.svg" class="image_line"></figure>
+				</div>
+
+				<div class="hotells">
+					<div class="hotell_1">
+
+						<img src="img/catalog/Layer21.png" class="image_hotell">
+						<h2>AMARA RESORT & SPA</h2>
+						<p class="hotell_p">ГОСТИНИЦА</p>
+						<p class="hotell_praice">ОТ 4000 Р.</p>
+						<button type="button" class="b_more_details1">ПОДРОБНЕЕ</button>
+						<button type="button" class="b_more_details2">ЗАБРОНИРОВАТЬ</button>
+
+						<div class="star_hotell">
+							<img src="img/catalog/star.svg" class="star_hotell_1">
+							<img src="img/catalog/star.svg" class="star_hotell_2">
+							<img src="img/catalog/star.svg" class="star_hotell_3">
+							<img src="img/catalog/star.svg" class="star_hotell_4">
+						</div>
+
+						<table class="table_rating_hotell">
+							<tr>
+								<td class="table_rating_hotell_td">РЕЙТИНГ: 8,5</td>
+							</tr>
+						</table>
+
+					</div>
+
+					<figure>
+						<img src="img/catalog/line.svg" class="image_line2">
+					</figure>
+
+					<div class="hotell_2">
+						<img src="img/catalog/Layer89.png" class="image_motell">
+						<h2>DESERT QUAIL INN</h2>
+						<p class="hotell_2_p_motell">МОТЕЛЬ</p>
+						<p class="hotell_2_praice">ОТ 3000 Р.</p>
+						<button type="button" class="b2_more_details1">ПОДРОБНЕЕ</button>
+						<button type="button" class="b2_more_details2">ЗАБРОНИРОВАТЬ</button>
+
+						<div>
+							<img src="img/catalog/star.svg" class="star_hotel2_1">
+							<img src="img/catalog/star.svg" class="star_hotel2_2">
+							<img src="img/catalog/star.svg" class="star_hotel2_3">
+						</div>
+
+						<table class="table_rating_motell">
+							<tr>
+								<td class="table_rating_motell_td">РЕЙТИНГ: 8,9</td>
+							</tr>
+						</table>
+
+					</div>
+
+					<figure>
+						<img src="img/catalog/line.svg" class="image_line3">
+					</figure>
+
+					<div class="hotell_3">
+						<img src="img/catalog/Rectangle.png" class="image_appartament">
+						<h2>VILLAS AT POCO DIABLO</h2>
+						<p class="hotell_3_p_appartament">АПАРТАМЕНТЫ</p>
+						<p class="hotell_3_praice">ОТ 2000 Р.</p>
+						<button type="button" class="b3_more_details1">ПОДРОБНЕЕ</button>
+						<button type="button" class="b3_more_details2">ЗАБРОНИРОВАТЬ</button>
+
+						<div>
+							<img src="img/catalog/star.svg" class="star_hotel3_1">
+							<img src="img/catalog/star.svg" class="star_hotel3_2">
+						</div>
+
+						<table class="table_rating_appartament">
+							<tr>
+								<td class="table_rating_appartament_td">РЕЙТИНГ: 9,2</td>
+							</tr>
+						</table>
+
+					</div>
+
+					<figure><img src="img/catalog/line.svg" class="image_line4"></figure>
+
+				</div>
+
+			</section>
+
+		</main>
+
+		<footer>
+			
+			<section class="section_footer">
+
+				<div class="footer">
+
+					<div class="contact_1">
+						<p class="footer_p1">
+							<a href="blank.html">#VISITSEDONA</a>
+						</p>
+						<p class="footer_p_tel">
+							<a href="tel:+74956660166">ТЕЛ:+7(495) 666-01-66</a>
+						</p>
+					</div>
+
 				
-				</div>
-			</li>
-			<li>
-				<div class ="icons">
-					<a href="#"><img src="img/blue_box.svg" class="blue_box2">
-					<img src="img/fb-icon.svg" class="fb-icon"></a>
+					<ul class="footer_ul">
+						<div class =  "contact_2">	
+							<li>
+								<div class ="icons">
+									<a href="#">
+										<img src="img/blue_box.svg" class="blue_box">
+										<img src="img/twitter.svg" class="twitter">
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class ="icons">
+									<a href="#">
+										<img src="img/blue_box.svg" class="blue_box2">
+										<img src="img/fb-icon.svg" class="fb-icon">
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class ="icons">
+									<a href="#">
+										<img src="img/blue_box.svg" class="blue_box3">
+										<img src="img/youtube.svg" class="youtube">
+									</a>
+								</div>
+							</li>
+						</div>
+					</ul>
 					
+
+					<div class="logo">
+						<p class="footer_logo_p">Website by</p>
+						<img src="img/logo-htmlacademy.svg" class="footer_logo_img" alt="HTML Academy">
+					</div>
+
 				</div>
-			</li>
-			<li>
-				<div class ="icons">
-					<a href="#"><img src="img/blue_box.svg" class="blue_box3">
-					<img src="img/youtube.svg" class="youtube"></a>
-					
-				</div>
-			</li></div>
-		</ul>
-		
+			</section>
 
-		<div class="logo">
-		<p class="footer_logo_p">Website by</p>
-		<img src="img/logo-htmlacademy.svg" class="footer_logo_img" alt="HTML Academy">
-		</div>
+		</footer>
 
-		</div>
-	</section>
-
-</footer>
-
-  </body>
+	  </body>
 </html>

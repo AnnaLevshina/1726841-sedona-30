@@ -1,275 +1,305 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-    <style>
-   @font-face {
-    font-family: PTSans; /* Имя шрифта */
-    src: url(fonts/PTSans.woff); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: PTSans;
-   }
-  </style>
+<html  class="page" lang="ru">
+<head>
 
-  <style>
-   @font-face {
-    font-family: PTSans; /* Имя шрифта */
-    src: url(fonts/PTSans.woff2); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: PTSans2;
-   }
-  </style>
+	<meta charset="utf-8">
+	<title>HTML Academy: Седона</title>
 
-  <style>
-   @font-face {
-    font-family: PTSans-Bold; /* Имя шрифта */
-    src: url(fonts/PTSans-Bold.woff); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: PTSans-Bold;
-   }
-  </style>
+	<!-- <style>
+		@font-face {
+			font-family: PTSans; /* Имя шрифта */
+			src: url('fonts/PTSans.woff'); /* Путь к файлу со шрифтом */
+		}
+		/*P {
+			font-family: PTSans;
+		}*/
+	</style>
 
-  <style>
-   @font-face {
-    font-family: PTSans-Bold; /* Имя шрифта */
-    src: url(fonts/PTSans-Bold.woff2); /* Путь к файлу со шрифтом */
-   } 
-   P {
-    font-family: PTSans-Bold2;
-   }
-  </style> 
+	<style>
+		@font-face {
+			font-family: PTSans2; /* Имя шрифта */
+			src: url('fonts/PTSans.woff2'); /* Путь к файлу со шрифтом */
+		}
+		/*P {
+			font-family: PTSans2;
+		}*/
+	</style>
 
-  <link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
+	<style>
+		@font-face {
+			font-family: PTSans-Bold; /* Имя шрифта */
+			src: url('fonts/PTSans-Bold.woff'); /* Путь к файлу со шрифтом */
+		}
+		/*P {
+			font-family: PTSans-Bold;
+		}*/
+	</style>	
 
-  <body class="body">
+	<style>
+		@font-face {
+			font-family: PTSans-Bold2; /* Имя шрифта */
+			src: url('fonts/PTSans-Bold.woff2'); /* Путь к файлу со шрифтом */
+		} 
+		/*P {
+			font-family: PTSans-Bold2;
+		}*/
+	</style>  -->
 
-<header >
-	<div class = "navigation"> 
-	<nav>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+	<link rel="icon" href="favicon.ico">
+	<link href="normalize.css" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet">
 	
-		<ul>
-			<div class="style_nav">	
-			<li class="nav_information"><a href="#">Информация</a></li>
-			<li class="nav_foto_and_vidio"><a href="#">Фото и Видео</a></li>
-			<li class="nav_logo"><figure><a href="index.html"><img src="img/logo.svg" alt="Логотип Седоны"></a></figure></li>   <!-- ссылка на нлавную--->
-			<li class="nav_map"><a href="#">Карта штата</a></li>
-			<li class="nav_hotels"><a href="catalog.html">Гостиницы</a></li>
-		</div>
-		</ul>
+</head>
 
-	</nav>
-	</div>
-</header>
+<body class="page-body">
 
-
-<main>
-
-	<div class="blok_1">
-	<figure class="blok_1_image"><img src="img/background_photo.png" alt ="Горы Седоны"></figure>
-	<figure class="blok_1_welcome"><img src="img/welcome.png" alt="Добро пожаловать в Седону"></figure>
-	</div>
-
-	<section>
-		
-		<div class="blok_2">
-		<dl>
-			<figure><img class="image_group_1" src="img/group_1.png" width="1200" height="272"></figure>
-			<div class="text_blok2">
-			<dt class="text_blok2_p1">СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</dt>
-				<dd class="text_blok2_p2">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!
-				</dd>
+	<header class="main-header">
+		<nav class = "main-navigation">
+			<div class="main-navigation-wrapper">
+				<div class="container">
+					<ul class="style_nav">
+						<li>                     <!--class="nav_information"--->
+							<a href="#">Информация</a>
+						</li>
+						<li>					 <!--class="nav_foto_and_vidio"--->
+							<a href="#">Фото и Видео</a>
+						</li>
+						<li class="nav_logo">					 
+							<figure>
+								<a href="index.html">
+									<img src="img/logo.svg" alt="Логотип Седоны">
+								</a>
+							</figure>
+						</li>   									
+						<li > 									<!--class="nav_map"--->
+							<a href="#">Карта штата</a>
+						</li>
+						<li >										<!--class="nav_hotels"--->
+							<a href="catalog.html">Гостиницы</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</dl>
+		</nav>
+	</header>
 
+	<main class="container"> 
+		<section class="wellcom">
+		<div class="container-wellcom">
+
+			<figure>
+				<img src="img/background_photo.png" alt ="Горы Седоны">
+			</figure>
+			<figure class="sedona-wellcom">
+				<img src="img/welcome.png" alt="Добро пожаловать в Седону">
+			</figure>
+			<figure class="sedona-tre">
+				<img class="conteiner_sedona_img" src="img/group_1.png" width="1200" height="272">
+			</figure>
 		</div>
+		</section>
+		<section>
 
-	</section>
+			<div class="conteiner_sedona">
 
-	<section>
-		<div class="section_blok_3">
-		<div class="blok_3">
-		<h2 class="blok_3_h2">НАСТОЯЩИЙ ГОРОДОК</h2>
-		<dl>
-			<dt class="blok_3_dt">-№1-</dt>
-			<dd class="blok_3_dd">СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ</dd>
-		</dl>
-		</div>
+				<dl>
+					
+					<div class="conteiner_sedona_text">
+						<dt>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</dt>
+						<dd>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!
+						</dd>
+					</div>
+				</dl>
 
-		<div class="image_blok_3">
-		<figure>
-			<img class="imag_blok_3" src="img/house.png" alt="Дома в Седоне"></figure></div>
-		</div>
-	</section>
-	
+			</div>
 
-	
-	<section>													
-		<div class="spisok_1">
-		<ul>
-			<li >
-				<img class="image_house" src="img/icon_house.svg">
-				<h3 class="li1_h3">ЖИЛЬЁ</h3>
-				<p class="li1_p">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, КАК В КИНО!</p>
-			</li>
-			<li>
-				<img class="image_eat" src="img/icon_burger.svg">
-				<h3 class="li2_h3">ЕДА</h3>
-				<p class="li2_p">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
-			</li>
-			<li>
-				<img class="image_suvenirs" src="img/icon_box.svg">
-				<h3 class="li3_h3">СУВЕНИРЫ</h3>
-				<p class="li3_p">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО <br>ПРОИЗВОДСТВА!</p>
-			</li>
-		</ul>
-	</div>
-		
-	</section>
+		</section>
 
-	<section>
-		<div class="section_blok_4">
-		<div class="image_blok_4">
-		<figure>
-		<img class="imag_blok_4" src="img/bridge.png" alt="Мост Дьявола"></figure></div>
-		<div class="blok_4">
-		<h2 class="blok_4_h2">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
-		<dl>
-			<dt class="blok_4_dt">-№2-</dt>
-			<dd class="blok_4_dd">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</dd>
-		</dl>
-		</div>
-	</div>
+		<section>
+
+			<div class="conteiner_city">
+				<div class="conteiner_city_text">
+					<h2 >НАСТОЯЩИЙ<br> ГОРОДОК</h2>
+					<dl>
+						<dt>-№1-</dt>
+						<dt>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ<br> ТЕЧЁТ СВОЯ ЖИЗНЬ</dt>
+					</dl>
+				</div>
+
+				<div class="conteiner_city_img">
+					<figure>
+						<img width="800" height="256" src="img/house.png" alt="Дома в Седоне">
+					</figure>
+				</div>
+			</div>
+
+		</section>
 
 
-	</section>
 
-	<section>													
-		
-		<div class="spisok_2"> 
-		<ul>
+		<section>		
+
+			<div class="spisok_1">
+				<ul class="features-list">
+					<li class="feature-item" >
+						<img  src="img/icon_house.svg">
+						<h3 >ЖИЛЬЁ</h3>
+						<p >РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, КАК В КИНО!</p>
+					</li>
+					<li class="feature-item">
+						<img src="img/icon_burger.svg">
+						<h3 >ЕДА</h3>
+						<p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+					</li>
+					<li class="feature-item">
+						<img src="img/icon_box.svg">
+						<h3>СУВЕНИРЫ</h3>
+						<p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО <br>ПРОИЗВОДСТВА!</p>
+					</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<section>
+
+			<div class="conteiner_city">
+				<div class="conteiner_city_img">
+					<figure>
+						<img class="imag_blok_3" src="img/bridge.png" alt="Мост Дьявола">
+					</figure>
+				</div>
+				<div class="conteiner_city_text">
+					<h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
+					<dl>
+						<dt>-№2-</dt>
+						<dt>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО<br> ВЫ ОСМЕЛИТЕСЬ</dt>
+					</dl>
+				</div>
+			</div>
+
+		</section>
+
+		<section>													
+
+			<div class="spisok_1"> 
+				<ul class="features-list features-list-grey">
+					<li class="feature-item">
+						<h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+						<p>-№3-</p>
+						<p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+					</li>
+					<li class="feature-item">
+						<h3>КРАСИВАЯ ДОРОГА</h3>
+						<p>-№4-</p>
+						<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
+					</li>
+					<li class="feature-item">
+						<h3>МАЛО ТУРИСТОВ</h3>
+						<p>-№5-</p>
+						<p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br> И ТОЛПИТСЯ ТАМ</p>
+					</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<section>
+
+			<div class="conteiner_sedona_map">
+
+				<div  class="conteiner_sedona_text_map">
+					
+					<dt>Заинтересовались?</dt>
+					<p>УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, <br>
+					И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+				</div>
+
+			</div>
 			
-			<li>
-				<h3 class="li1_square">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-				<p class="li1_№3">-№3-</p>
-				<p class="li1_Sight">ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
-			</li>
-			<li>
-				<h3 class="li2_road">КРАСИВАЯ ДОРОГА</h3>
-				<p class="li2_№4">-№4-</p>
-				<p class="li2_LV">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
-			</li>
-			<li>
-				<h3 class="li3_tourists">МАЛО ТУРИСТОВ</h3>
-				<p class="li3_№5">-№5-</p>
-				<p class="li3_canyon">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br> И ТОЛПИТСЯ ТАМ</p>
-			</li>
 
-		</ul>
+			<form action="" method="get" class="form_search">  <!--не знаю что писать в action--->
+				<button type="button" class="button-brown button-form-hotell">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+				<p class="appointment-item">
+          <label for="appointment-date">Дата</label>
+          <input id="appointment-date" type="text" name="date" placeholder="24 АПРЕЛЯ 2017">
+          <img src="img/calendar.svg">
+        </p>
+			
+			<p class="appointment-item">
+          <label for="appointment-date-end">Дата выезда:</label>
+          <input id="appointment-date-end" type="text" name="date" placeholder="4 ИЮЛЯ 2017">
+          <img src="img/calendar.svg">
+        </p>
+
+        	<p class="appointment-item">
+          <label for="appointment-adults">Взрослых:</label>
+          <input id="appointment-adults" type="text" name="adults" placeholder="2">
+          <img src="img/union.svg">
+        </p>
+			
+        	<p class="appointment-item">
+          <label for="appointment-children">Детей:</label>
+          <input id="appointment-children" type="text" name="children" placeholder="0">
+          <img src="img/union.svg">
+        </p>
+			<a href="catalog.html">
+				<button type="button" class="button-blue button-form">НАЙТИ</button>
+			</a>	
+
+			</form>
+
+			<figure>
+				<img src="img/map.png" class="image_map" alt="Карта">
+			</figure>
+
 		</div>
-	</section>
 
-	<section>
-		
-		<div class="map">
-
-		<dl>
-			<div class="text_end">
-			<dt><p>Заинтересовались?</p></dt>
-		</div>
-			<div class="text_end_end">
-			<dd>УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, <br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</dd></div>
-		
-		</dl>
-
-	<button type="button" class="b1">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
-
-	<form action="" method="get" class="form_search">  <!--не знаю что писать в action--->
-
-		<label>Дата заезда:
-			<input type="data" name="data" class="input_data"><img src="img/calendar.svg">
-		</label><br>
-
-		<label>Дата выезда:
-			<input type="data" name="data"><img src="img/calendar.svg">
-		</label><br>
-
-		<label>Взрослых:
-			<input type="text" name="adults" value="2"><img src="img/Rectangle.svg">
-			<img src="img/union.svg"></label><br>
-
-		<label>Детей:
-			<input type="text" name="adults" value="0"><img src="img/Rectangle.svg">
-			<img src="img/union.svg"></label><br>
-
-		<button type="button" class="b2">НАЙТИ<a href="catalog.html"></a></button>	
-
-	</form>
-	<figure><img src="img/map.png" class="image_map" alt="Карта"></figure>
-	</div>
 	</section>
 
 </main>
 
 
-<footer>
-	
+<footer class="main-footer">
+
 	<section class="section_footer">
 
-		<div class="footer">
-
-		<div class="contact_1">
-		<p class="footer_p1">
-			<a href="blank.html">#VISITSEDONA</a>
-		</p>
-		<p class="footer_p_tel">
-			<a href="tel:+74956660166">ТЕЛ:+7(495) 666-01-66</a>
-		</p>
-		
-		</div>
-
-		
-		<ul class="footer_ul">
-		<div class =  "contact_2">	
-			<li>
-				<div class ="icons">
-				<a href="#"><img src="img/blue_box.svg" class="blue_box">
-				<img src="img/twitter.svg" class="twitter"></a>
-				
-				</div>
-			</li>
-			<li>
-				<div class ="icons">
-					<a href="#"><img src="img/blue_box.svg" class="blue_box2">
-					<img src="img/fb-icon.svg" class="fb-icon"></a>
-					
-				</div>
-			</li>
-			<li>
-				<div class ="icons">
-					<a href="#"><img src="img/blue_box.svg" class="blue_box3">
-					<img src="img/youtube.svg" class="youtube"></a>
-					
-				</div>
-			</li></div>
-		</ul>
-		
-
-		<div class="logo">
-		<p class="footer_logo_p">Website by</p>
-		<img src="img/logo-htmlacademy.svg" class="footer_logo_img" alt="HTML Academy">
-		</div>
-
-		</div>
+		<p class="footer-contacts">
+			<a class="footer-heshteg" href="blank.html">#VISITSEDONA</a>	</p>
+		<p class="footer-contacts">	<a class="footer-phone" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a> </p>
+	
 	</section>
 
-</footer>
+	<section class="footer-social">	
+		<ul class="footer_ul">
+			<div class =  "footer-social">	
+				<li>
+					<a class="social-button" href="#">
+						<!-- <img src="img/blue_box.svg" > -->
+						<button type="button" class="button-social-network"><img src="img/twitter.svg"></button>
+					</a>
+				</li>
+				<li>
+					<a class="social-button" href="#">
+						<!-- <img src="img/blue_box.svg"> -->						
+						<button type="button" class="button-social-network"><img src="img/fb-icon.svg"></button>
+					</a>
+					</li>
+					<li>
+						<a class="social-button" href="#">
+							<!-- <img src="img/blue_box.svg"> -->
+							<button type="button" class="button-social-network"><img src="img/youtube.svg"></button>
+						</a>
+					</li>
+				</div>
+			</ul>
+		</section>
+		<p class="footer-copyright">Website by
+		<a class="button-htmlacadem" href="https://htmlacademy.ru"><img class="button-htmlacadem-img" src="img/logo-htmlacademy.svg" alt="HTML Academy"></a></p>
+	</footer>
 
 </body>
+
 </html>
