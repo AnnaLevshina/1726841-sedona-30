@@ -385,8 +385,9 @@ opacity: 0.3;
 	width: 1200px;
 height: 217px;
 	background-image: url(img/catalog/background.png);
-}*/
-
+	background: url('../img/catalog/background.png') no-repeat center center / cover;
+}
+*/
 .filter{
 	background: var(--basic-blue);  /*это временный фон, чтобы видеть белый цвет*/
 	  color: var(--basic-white);
