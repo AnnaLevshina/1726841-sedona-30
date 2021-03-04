@@ -381,31 +381,22 @@ opacity: 0.3;
 	opacity: 0.3;
 }
 
-/*.background-image-catalog{
+.background-image-catalog{
 	width: 1200px;
 height: 217px;
 	background-image: url(img/catalog/background.png);
-}*/
+}
 
 .filter{
-	background: var(--basic-blue);  /*это временный фон, чтобы видеть белый цвет*/
-	  color: var(--basic-white);
+	/*background: var(--basic-grey-grey);*/
 }
 .filter ul {
   list-style: none;
   line-height: 21px;
 }
-.filter p{
-	font-size: 16px;
-line-height: 21px;
-}
-.filter label{
-	font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-}
-.filter-input-checkbox:hover + label{
 
+.filter-input-checkbox:hover + label{
+  color: var(--basic-white);
 }
 .catalog-list {
   list-style: none;
@@ -451,38 +442,3 @@ font-weight: normal;
  .links {
  	text-decoration: none;
  }
-
- .hotel-search-button{
- 	background:transparent;
- 	border: 2px solid var(--basic-white);
- 	color: var(--basic-white);
- 	font-size: 14px;
-line-height: 21px;
- }
-
- .filter td{
- 	font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-text-align: center;
-
- }
-  .filter table{
-
-  	width: 317px;
-height: 36px;
-border: 2px solid var(--basic-white);
-border-collapse: collapse ;
-}
-.size-button-catalog {
-	width: 110px;
-height: 27px;
-font-size: 14px;
-line-height: 21px;
-}
-.size-button-brow {
-	width: 142px;
-height: 27px;
-font-size: 14px;
-line-height: 21px;
-}

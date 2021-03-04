@@ -1,59 +1,57 @@
 <!DOCTYPE html>
-<html  class="page" lang="ru">
-<head>
+<html class="page" lang="ru">
+	 	<head>
+		    <meta charset="utf-8">
+		    <title>HTML Academy: Седона</title>
 
-	<meta charset="utf-8">
-	<title>HTML Academy: Седона</title>
+		<!--     <style>
+				@font-face {
+				    font-family: PTSans; /* Имя шрифта */
+				    src: url(fonts/PTSans.woff); /* Путь к файлу со шрифтом */
+				}
+			    P {
+			 	    font-family: PTSans;
+			    }
+		  	</style>
 
-	<!-- <style>
-		@font-face {
-			font-family: PTSans; /* Имя шрифта */
-			src: url('fonts/PTSans.woff'); /* Путь к файлу со шрифтом */
-		}
-		/*P {
-			font-family: PTSans;
-		}*/
-	</style>
+		  	<style>
+					@font-face {
+						font-family: PTSans2; /* Имя шрифта */
+						src: url(fonts/PTSans.woff2); /* Путь к файлу со шрифтом */
+					}
+					P {
+						font-family: PTSans2;
+					}
+		  	</style>
 
-	<style>
-		@font-face {
-			font-family: PTSans2; /* Имя шрифта */
-			src: url('fonts/PTSans.woff2'); /* Путь к файлу со шрифтом */
-		}
-		/*P {
-			font-family: PTSans2;
-		}*/
-	</style>
+			<style>
+				@font-face {
+				    font-family: PTSans-Bold; /* Имя шрифта */
+				    src: url(fonts/PTSans-Bold.woff); /* Путь к файлу со шрифтом */
+				}
+				P {
+				    font-family: PTSans-Bold;
+				}
+			</style>
 
-	<style>
-		@font-face {
-			font-family: PTSans-Bold; /* Имя шрифта */
-			src: url('fonts/PTSans-Bold.woff'); /* Путь к файлу со шрифтом */
-		}
-		/*P {
-			font-family: PTSans-Bold;
-		}*/
-	</style>	
+			<style>
+				@font-face {
+					font-family: PTSans-Bold2; /* Имя шрифта */
+				    src: url(fonts/PTSans-Bold.woff2); /* Путь к файлу со шрифтом */
+				} 
+				P {
+				    font-family: PTSans-Bold2;
+				}
+			</style>  -->
 
-	<style>
-		@font-face {
-			font-family: PTSans-Bold2; /* Имя шрифта */
-			src: url('fonts/PTSans-Bold.woff2'); /* Путь к файлу со шрифтом */
-		} 
-		/*P {
-			font-family: PTSans-Bold2;
-		}*/
-	</style>  -->
-
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
 	<link rel="icon" href="favicon.ico">
 	<link href="css/normalize.css" rel="stylesheet">
   	<link href="css/style.css" rel="stylesheet">
 	
-</head>
-
-<body class="page-body">
+		</head>
+	<body class="page-body">
 
 	<header class="main-header">
 		<nav class = "main-navigation">
@@ -61,7 +59,7 @@
 				<div class="container">
 					<ul class="style_nav">
 						<li>                     <!--class="nav_information"--->
-							<a  href="#">Информация</a>
+							<a href="#">Информация</a>
 						</li>
 						<li>					 <!--class="nav_foto_and_vidio"--->
 							<a href="#">Фото и Видео</a>
@@ -85,181 +83,185 @@
 		</nav>
 	</header>
 
-	<main class="container"> 
-		<section class="wellcom">
-		<div class="container-wellcom">
 
-			<figure>
-				<img src="img/background_photo.png" alt ="Горы Седоны">
-			</figure>
-			<figure class="sedona-wellcom">
-				<img src="img/welcome.png" alt="Добро пожаловать в Седону">
-			</figure>
-			<figure class="sedona-tre">
-				<img class="conteiner_sedona_img" src="img/group_1.png" width="1200" height="272">
-			</figure>
-		</div>
-		</section>
-		<section>
+<main class="container"> 
+		<div class="background-image-catalog">
+			<section>
 
-			<div class="conteiner_sedona">
+				<!-- <img src="img/catalog/background.png" class="image_catalog"> -->
+				<div class="blok_1">
+					<div class="filter">
+						<p>ИНФРАСТРУКТУРА:</p>
+						<ul>
+							<li class="filter-option filter-checkbox">
+								<input type="checkbox" class="basseyn" checked>
+								<label>БАССЕЙН</label>
+							</li>
+							<li class="filter-option filter-checkbox">
+								<input type="checkbox" class="parking">
+								<label>ПАРКОВКА</label>
+							</li>
+							<li class="filter-option filter-checkbox">
+								<input type="checkbox" class="wi_fi">
+								<label>WI-FI</label>
+							</li>
 
-				<dl>
-					
-					<div class="conteiner_sedona_text">
-						<dt>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</dt>
-						<dd>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!
-						</dd>
+						</ul>
+					<!-- </div> -->
+<!-- 
+					<div class="type_house"> -->
+						<p>ТИП ЖИЛЬЯ</p>
+						<ul>
+							<li class="filter-option filter-checkbox">
+								<input type="checkbox" class="hotell" checked>
+								<label>ГОСТИНИЦА</label> 
+							</li>
+							<li class="filter-option filter-checkbox">
+								<input type="checkbox" class="motell" checked>
+								<label>МОТЕЛЬ</label>
+							</li>
+							<li class="filter-option filter-checkbox">
+								<input type="checkbox" class="appartaments" checked>
+								<label>АПАРТАМЕНТЫ</label>
+							</li>
+						</ul>
 					</div>
-				</dl>
 
-			</div>
-
-		</section>
-
-		<section>
-
-			<div class="conteiner_city">
-				<div class="conteiner_city_text">
-					<h2 >НАСТОЯЩИЙ<br> ГОРОДОК</h2>
-					<dl>
-						<dt>-№1-</dt>
-						<dt>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ<br> ТЕЧЁТ СВОЯ ЖИЗНЬ</dt>
-					</dl>
+					<div class="praice">
+						<p>СТОИМОСТЬ В СУТКИ(Р):</p>
+						<table border="1" class="table_praice">
+							<tr>
+								<td>от 0</td>
+								<td>до 3000</td>
+							</tr>
+						</table>
+						<input type="range" class="table_praice_range">
+						<button type="button" class="b1">ПОКАЗАТЬ</button>
+					</div>
 				</div>
-
-				<div class="conteiner_city_img">
-					<figure>
-						<img width="800" height="256" src="img/house.png" alt="Дома в Седоне">
-					</figure>
-				</div>
-			</div>
-
-		</section>
-
-
-
-		<section>		
-
-			<div class="spisok_1">
-				<ul class="features-list">
-					<li class="feature-item" >
-						<img  src="img/icon_house.svg">
-						<h3 >ЖИЛЬЁ</h3>
-						<p >РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, КАК В КИНО!</p>
-					</li>
-					<li class="feature-item">
-						<img src="img/icon_burger.svg">
-						<h3 >ЕДА</h3>
-						<p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
-					</li>
-					<li class="feature-item">
-						<img src="img/icon_box.svg">
-						<h3>СУВЕНИРЫ</h3>
-						<p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО <br>ПРОИЗВОДСТВА!</p>
-					</li>
-				</ul>
-			</div>
-
-		</section>
-
-		<section>
-
-			<div class="conteiner_city">
-				<div class="conteiner_city_img">
-					<figure>
-						<img class="imag_blok_3" src="img/bridge.png" alt="Мост Дьявола">
-					</figure>
-				</div>
-				<div class="conteiner_city_text">
-					<h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
-					<dl>
-						<dt>-№2-</dt>
-						<dt>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО<br> ВЫ ОСМЕЛИТЕСЬ</dt>
-					</dl>
-				</div>
-			</div>
-
-		</section>
-
-		<section>													
-
-			<div class="spisok_1"> 
-				<ul class="features-list features-list-grey">
-					<li class="feature-item">
-						<h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-						<p>-№3-</p>
-						<p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
-					</li>
-					<li class="feature-item">
-						<h3>КРАСИВАЯ ДОРОГА</h3>
-						<p>-№4-</p>
-						<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
-					</li>
-					<li class="feature-item">
-						<h3>МАЛО ТУРИСТОВ</h3>
-						<p>-№5-</p>
-						<p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br> И ТОЛПИТСЯ ТАМ</p>
-					</li>
-				</ul>
-			</div>
-
-		</section>
-
-		<section>
-
-			<div class="conteiner_sedona_map">
-
-				<div  class="conteiner_sedona_text_map">
-					
-					<dt>Заинтересовались?</dt>
-					<p>УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, <br>
-					И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-				</div>
-
-			</div>
-			
-
-			<form action="" method="get" class="form_search">  <!--не знаю что писать в action--->
-				<button type="button" class="button-brown button-form-hotell">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
-				<p class="appointment-item">
-          <label for="appointment-date">Дата</label>
-          <input id="appointment-date" type="text" name="date" value ="24 АПРЕЛЯ 2017">
-          <img src="img/calendar.svg">
-        </p>
-			
-			<p class="appointment-item">
-          <label for="appointment-date-end">Дата выезда:</label>
-          <input id="appointment-date-end" type="text" name="date" value="4 ИЮЛЯ 2017">
-          <img src="img/calendar.svg">
-        </p>
-
-        	<p class="appointment-item">
-          <label for="appointment-adults">Взрослых:</label>
-          <input id="appointment-adults" type="text" name="adults" value="2">
-          <img src="img/union.svg">
-        </p>
-			
-        	<p class="appointment-item">
-          <label for="appointment-children">Детей:</label>
-          <input id="appointment-children" type="text" name="children" value="0">
-          <img src="img/union.svg">
-        </p>
-			<button type="button" class="button-blue button-form" style="display: block;">НАЙТИ</button>
-			
-			</form>
-
-			<figure>
-				<img src="img/map.png" class="image_map" alt="Карта">
-			</figure>
-
+			</section>
 		</div>
+			<section class="hostell_main">
+				<div class="filter">
+						<p>НАЙДЕНО: 3</p>
+						<ul>
+							<li class="sortirovka_li1">
+								СОРТИРОВКА:
+							</li>
+							<li class="sortirovka_li2">
+								<input type="radio" class="to_praice" name = "cnopka">
+								<label>ПО ЦЕНЕ</label>
+							</li>
+							<li class="sortirovka_li3">
+								<input type="radio" class="to_type" name = "cnopka">
+								<label>ПО ТИПУ</label>
+							</li>
+							<li class="sortirovka_li4">
+								<input type="radio" class="to_rating" name = "cnopka">
+								<label>ПО РЕЙТИНГУ</label>
+							</li>
+						</ul>
+						<div class="image_up_down">
+							
+							<img src="img/catalog/icon-up-dir.svg" class="imag_down">
+							<img src="img/catalog/icon-down-dir.svg" class="imag_up">
+							
+						</div>
+						<!-- <figure><img src="img/catalog/line.svg" class="image_line"></figure> -->
+				</div>
 
-	</section>
+				<div class="hotells"><hr noshade class="line-catalog">
+					<ul class="catalog-list">
+						
+					<li class="catalog-item">
+						<a class="links"  href="#">
+						<h2>AMARA RESORT & SPA</h2>
+						<img src="img/catalog/Layer21.png" class="image_hotell"></a>
+						<p class="hotell_p">ГОСТИНИЦА</p>
+						<p class="hotell_praice">ОТ 4000 Р.</p>
+						<button type="button" class="b_more_details1">ПОДРОБНЕЕ</button>
+						<button type="button" class="b_more_details2">ЗАБРОНИРОВАТЬ</button>
 
-</main>
+						<div class="star_hotell">
+							<img src="img/catalog/star.svg" class="star_hotell_1">
+							<img src="img/catalog/star.svg" class="star_hotell_2">
+							<img src="img/catalog/star.svg" class="star_hotell_3">
+							<img src="img/catalog/star.svg" class="star_hotell_4">
+						</div>
 
+						<table class="table_rating_hotell">
+							<tr>
+								<td class="table_rating_hotell_td">РЕЙТИНГ: 8,5</td>
+							</tr>
+						</table>
 
+					
+
+					<!-- <figure>
+						<img src="img/catalog/line.svg" class="image_line2">
+					</figure> -->
+					</li>
+					<hr noshade class="line-catalog">
+					<li class="catalog-item">
+						
+						<a  class="links" href="#">
+							<h2>DESERT QUAIL INN</h2>
+							<img src="img/catalog/Layer89.png" class="image_motell">
+						</a>
+						<p class="hotell_2_p_motell">МОТЕЛЬ</p>
+						<p class="hotell_2_praice">ОТ 3000 Р.</p>
+						<button type="button" class="b2_more_details1">ПОДРОБНЕЕ</button>
+						<button type="button" class="b2_more_details2">ЗАБРОНИРОВАТЬ</button>
+
+						<div>
+							<img src="img/catalog/star.svg" class="star_hotel2_1">
+							<img src="img/catalog/star.svg" class="star_hotel2_2">
+							<img src="img/catalog/star.svg" class="star_hotel2_3">
+						</div>
+
+						<table class="table_rating_motell">
+							<tr>
+								<td class="table_rating_motell_td">РЕЙТИНГ: 8,9</td>
+							</tr>
+						</table>
+
+					<!-- <figure>
+						<img src="img/catalog/line.svg" class="image_line3">
+					</figure> -->
+					</li>
+					<hr noshade class="line-catalog">
+					<li class="catalog-item">
+						<a  class="links"  href="#">
+							<h2>VILLAS AT POCO DIABLO</h2>
+							<img src="img/catalog/Rectangle.png" class="image_appartament">
+						</a>
+						<p class="hotell_3_p_appartament">АПАРТАМЕНТЫ</p>
+						<p class="hotell_3_praice">ОТ 2000 Р.</p>
+						<button type="button" class="b3_more_details1">ПОДРОБНЕЕ</button>
+						<button type="button" class="b3_more_details2">ЗАБРОНИРОВАТЬ</button>
+
+						<div>
+							<img src="img/catalog/star.svg" class="star_hotel3_1">
+							<img src="img/catalog/star.svg" class="star_hotel3_2">
+						</div>
+
+						<table class="table_rating_appartament">
+							<tr>
+								<td class="table_rating_appartament_td">РЕЙТИНГ: 9,2</td>
+							</tr>
+						</table>
+
+					
+
+					<!-- <figure><img src="img/catalog/line.svg" class="image_line4"></figure> -->
+				</li>
+				<hr noshade class="line-catalog">
+				</ul>
+				</div>
+
+			</section>
+
+		</main>
 <footer class="main-footer">
 
 	<section class="section_footer">
@@ -301,6 +303,6 @@
 </a></p>
 	</footer>
 
-</body>
 
+	  </body>
 </html>
